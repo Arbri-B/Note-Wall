@@ -1,0 +1,55 @@
+#root {
+  margin: 10px;
+}
+
+.dashboard-main{
+  width: 100%;
+}
+.dashboard-header{
+  border-bottom: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px, 250px;
+}
+
+.dashboard-header-left{
+  margin-left: 3em;
+}
+
+.write-new-button{
+  border: 2px solid black;
+  height: max-content;
+  color: black;
+  text-decoration: none;
+  box-shadow: 5px 2px  black;
+  margin-right: 3em;
+  margin-top: 1em;
+}
+
+.results{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4em;
+  margin-top: 1em;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.result-edit{
+  height: max-content;
+  margin-right: 3em;
+  margin-top: 1em;
+}
+
+.red{
+  color: red;
+}
+
+.edit-delete-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
