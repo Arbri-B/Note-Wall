@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import api from "../../../server/services/apiService";
+import api from "./Api";
 
 const Dashboard = (props) => {
     const { noteList, setNoteList } = props;
