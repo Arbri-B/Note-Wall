@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+
+import api from "../../../server/services/apiService";
 
 const Dashboard = (props) => {
     const { noteList, setNoteList } = props;
 
     useEffect(() => {
-        axios.get("http://localhost:8000/api/notes")
+        api.get("/notes")
             .then((res) => {
                 setNoteList(res.data.notes);
             })
