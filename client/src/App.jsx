@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Form from './components/CreateNote';
@@ -10,7 +10,7 @@ import Edit from './components/EditNote';
 function App() {
 
 
-  // declaring the state
+
   return (
     <BrowserRouter>
       <Routes>
